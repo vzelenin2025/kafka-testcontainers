@@ -1,0 +1,68 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Maven ###
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### Gradle ###
+/build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Logs ###
+*.log
+logs/
+*.out
+
+### Spring Boot ###
+# Spring Boot dev tools file
+.spring-boot-devtools.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+out/
+
+### Eclipse ###
+.project
+.classpath
+.cproject
+.settings/
+bin/
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/.nb-gradle/
+
+### OS-specific ###
+.DS_Store
+Thumbs.db
+
+### Test Reports ###
+/test-output/
+/surefire-reports/
+/jacoco.exec
+
+### Docker ###
+*.env
+*.local
+docker-compose.override.yml
+
+### VS Code ###
+.vscode/
+
+### Other ###
+*.swp
+*.swo
